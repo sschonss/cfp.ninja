@@ -34,6 +34,9 @@ Your default editor is determined by $EDITOR, $VISUAL, or falls back to vim.`,
   # Submit from an existing YAML file (no editor)
   cfp submit gophercon-2026 --file proposal.yaml
 
+  # Submit one saved talk to one event
+  cfp submit gophercon-2026 --talk 42
+
   # Submit a saved talk to multiple events
   cfp submit --talk 42 --events gophercon-2026,devconf-2026
 
